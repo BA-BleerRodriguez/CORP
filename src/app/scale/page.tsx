@@ -1,3 +1,12 @@
-export default function Page() {
-  return <div>Scale page</div>;
+import scaleImg from 'public/scale.jpg';
+import Hero from '@/components/hero';
+
+export default function ScalePage() {
+  return (
+    <Hero
+      imgData={scaleImg}
+      imgAlt="welding"
+      title="We server high scale application"
+    />
+  );
 }
